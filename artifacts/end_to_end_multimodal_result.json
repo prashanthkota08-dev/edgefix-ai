@@ -1,0 +1,111 @@
+{
+  "pipeline": "IMAGE \u2192 CLIP \u2192 VISUAL OBSERVATIONS \u2192 QUESTION \u2192 LOCAL RAG \u2192 EVIDENCE FUSION \u2192 GROUNDED ANSWER",
+  "completed_at": "2026-09-30T17:54:48.948509+00:00",
+  "device": "CPU",
+  "gpu": "NOT USED",
+  "model": "openai/clip-vit-base-patch32",
+  "image_path": "data\\sample_images\\sample_motor.png",
+  "question": "What should I inspect if this motor is overheating?",
+  "OBSERVATION": {
+    "visual_signal": "CLIP ranked text concepts by image/text similarity. Similarity is relative to this candidate list, is not a calibrated probability, and does not establish a fault.",
+    "top_concepts": [
+      {
+        "label": "possible overheating indication",
+        "similarity": 0.2402
+      },
+      {
+        "label": "industrial motor",
+        "similarity": 0.2309
+      },
+      {
+        "label": "electric motor",
+        "similarity": 0.2294
+      },
+      {
+        "label": "industrial electric motor",
+        "similarity": 0.2288
+      },
+      {
+        "label": "obstructed ventilation",
+        "similarity": 0.2207
+      }
+    ]
+  },
+  "EVIDENCE": {
+    "strength": "stronger combined signal",
+    "retrieved_passages": [
+      {
+        "document": "EdgeFix Motor Maintenance Manual",
+        "page": 2,
+        "section": "Cooling and overheating",
+        "score": 8.4261,
+        "excerpt": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nCooling and overheating\nOverheating can result from blocked cooling passages, excessive ambient temperature, overload,\npoor ventilation, unbalanced supply, or bearing friction. First review load and operating history and\ncompare temperature readings with the established baseline and site limits. With the equipment\nsafely isolated, inspect external cooling fins, fan cover, and air passages for dust or debris. Clean\nonly by an approved method that will not drive contamination into the motor. Confirm the fan and\nshroud are intact and unobstructed.\nDo not touch a hot housing to estimate temperature. Use a suitable calibrated instrument from a\nsafe position. If temperature continues to rise, trips recur, or the cause is uncertain, stop and refer\nto a qualified electrical or mechanical technician.\nOriginal synthetic content \u00b7 Not manufacturer guidance"
+      },
+      {
+        "document": "EdgeFix Motor Maintenance Manual",
+        "page": 1,
+        "section": "Routine motor inspection",
+        "score": 5.0275,
+        "excerpt": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nRoutine motor inspection\nEdgeFix synthetic training document | Revision 1.0\nBefore work, identify the motor, driven load, operating duty, and recorded baseline. Inspect the\nframe for impact, corrosion, loose guards, oil or water ingress, and blocked ventilation. Record\nambient temperature, load, sound, vibration, and bearing housing temperature at repeatable points.\nCompare readings with the equipment record and site limits; this guide does not define universal\nacceptance limits.\nPreventive maintenance intervals must follow the site schedule and motor supplier requirements.\nKeep a dated log of observations, measurements, corrective work, and parts fitted. A change from\nthe established baseline warrants investigation even when the motor still runs.\nOriginal synthetic content \u00b7 Not manufacturer guidance"
+      },
+      {
+        "document": "EdgeFix Motor Maintenance Manual",
+        "page": 3,
+        "section": "Lubrication and bearings",
+        "score": 4.7013,
+        "excerpt": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nLubrication and bearings\nBearing noise, rising housing temperature, or vibration may indicate lubrication problems,\ncontamination, misalignment, or wear. Record the bearing location and operating condition. Check\nthe maintenance record for lubricant type, quantity, and service date. Use only the specified\nlubricant and approved service method; incompatible greases can damage bearings. Do not add\nlubricant solely because a bearing is noisy.\nInspect for leakage, damaged seals, and contamination after isolation. A rough bearing, persistent\nabnormal noise, or repeat temperature rise requires qualified assessment. Bearing replacement\nand internal motor work are outside this guide.\nOriginal synthetic content \u00b7 Not manufacturer guidance"
+      },
+      {
+        "document": "EdgeFix Motor Maintenance Manual",
+        "page": 4,
+        "section": "Belt inspection and alignment",
+        "score": 3.4416,
+        "excerpt": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nBelt inspection and alignment\nA belt drive can produce vibration, heat, and premature wear when tension or alignment is\nincorrect. After safe shutdown and isolation, inspect belt surfaces for glazing, cracking, fraying,\ncontamination, and uneven wear. Check pulley grooves and mounting for visible damage. Use an\nappropriate alignment tool and the equipment specification to assess pulley alignment. Use the\ndrive maker's specified tension method; do not estimate tension by hand.\nReplace matched belt sets together where the drive design requires it. Refit guards before\noperation. If alignment or tension cannot be verified to specification, refer the work to qualified\nmaintenance staff.\nOriginal synthetic content \u00b7 Not manufacturer guidance"
+      },
+      {
+        "document": "EdgeFix Troubleshooting Guide",
+        "page": 4,
+        "section": "Belt heat and wear",
+        "score": 3.4416,
+        "excerpt": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nBelt heat and wear\nA hot belt or uneven edge wear may be associated with misalignment, incorrect tension, damaged\npulleys, overload, or contamination. After isolation, inspect belt and pulley condition and verify\nalignment and tension against the drive specification with suitable tools. Never adjust a moving\ndrive. If the specification is unavailable, do not guess; obtain the equipment data or qualified\nsupport.\nOriginal synthetic content \u00b7 Not manufacturer guidance"
+      }
+    ]
+  },
+  "RECOMMENDED CHECKS": [
+    "With the equipment safely isolated, inspect external cooling fins, fan cover, and air passages for dust or debris",
+    "Clean only by an approved method that will not drive contamination into the motor",
+    "Confirm the fan and shroud are intact and unobstructed",
+    "Inspect the frame for impact, corrosion, loose guards, oil or water ingress, and blocked ventilation",
+    "Keep a dated log of observations, measurements, corrective work, and parts fitted"
+  ],
+  "SAFETY": "Follow site-specific safety procedures and lockout/tagout requirements before physical inspection.",
+  "UNCERTAINTY": "The image and retrieved passages do not establish the cause. Confirm observations using approved site methods.",
+  "SOURCES": [
+    {
+      "document": "EdgeFix Motor Maintenance Manual",
+      "page": 2,
+      "section": "Cooling and overheating"
+    },
+    {
+      "document": "EdgeFix Motor Maintenance Manual",
+      "page": 1,
+      "section": "Routine motor inspection"
+    },
+    {
+      "document": "EdgeFix Motor Maintenance Manual",
+      "page": 3,
+      "section": "Lubrication and bearings"
+    },
+    {
+      "document": "EdgeFix Motor Maintenance Manual",
+      "page": 4,
+      "section": "Belt inspection and alignment"
+    },
+    {
+      "document": "EdgeFix Troubleshooting Guide",
+      "page": 4,
+      "section": "Belt heat and wear"
+    }
+  ],
+  "grounding_note": "CLIP similarity does not diagnose overheating; checks below are extracted from the cited local documentation."
+}

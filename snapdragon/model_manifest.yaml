@@ -1,0 +1,14 @@
+vision_model:
+  id: openai/clip-vit-base-patch32
+  purpose: zero-shot image/text similarity for maintenance visual concepts
+  source: https://huggingface.co/openai/clip-vit-base-patch32
+  architecture: CLIP ViT-B/32
+  trained_by_edgefix: false
+  license: MIT for OpenAI CLIP source implementation; verify model artifact terms at source before redistribution
+  local_execution: CPU through PyTorch and Transformers
+  target_runtime: Qualcomm AI Runtime or ONNX Runtime where supported; validation pending
+  ai_hub_status: Target profile not yet validated
+text_embedding_model:
+  id: sentence-transformers/all-MiniLM-L6-v2
+  purpose: optional local semantic retrieval embeddings
+  license: Apache-2.0

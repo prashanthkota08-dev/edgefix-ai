@@ -1,0 +1,3 @@
+# Snapdragon integration strategy (Phase 2)
+
+No Snapdragon device execution is claimed. `SnapdragonBackend` remains an inactive interface placeholder. Phase 2 adds CPU CLIP and an optional ONNX export plus an optional Qualcomm AI Hub Workbench profile script. The profile status remains unvalidated until a real submitted job completes and its returned profile is saved. Check the live AI Hub device list for exact device naming and current availability. Then validate the exported graph, runtime, operation coverage, numerical parity, latency, memory, and visual quality on the selected Snapdragon target. Keep CPU fallback and clearly label all measurements by actual device and runtime. Do not infer local PC execution from a hosted profile job.

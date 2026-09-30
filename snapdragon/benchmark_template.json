@@ -1,0 +1,11 @@
+{
+  "benchmark_type": "SNAPDRAGON AI HUB BENCHMARK",
+  "status": "Not run",
+  "job_id": null,
+  "device": null,
+  "model": "openai/clip-vit-base-patch32",
+  "runtime": null,
+  "metrics": null,
+  "job_url": null,
+  "note": "Populate only from a real Qualcomm AI Hub Workbench result."
+}

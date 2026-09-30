@@ -1,0 +1,57 @@
+{
+  "model_name": "openai/clip-vit-base-patch32",
+  "device": "CPU",
+  "gpu": "NOT USED",
+  "image_path": "data\\sample_images\\sample_motor.png",
+  "labels": [
+    "electric motor",
+    "industrial motor",
+    "pump",
+    "fan",
+    "gearbox",
+    "electrical panel",
+    "belt drive",
+    "bearing housing",
+    "terminal box",
+    "industrial electric motor",
+    "normal equipment appearance",
+    "visible corrosion",
+    "possible overheating indication",
+    "damaged component",
+    "obstructed ventilation",
+    "belt misalignment",
+    "oil leakage",
+    "worn component",
+    "cooling system",
+    "ventilation opening",
+    "corroded metal"
+  ],
+  "top_results": [
+    {
+      "label": "possible overheating indication",
+      "similarity": 0.2402
+    },
+    {
+      "label": "industrial motor",
+      "similarity": 0.2309
+    },
+    {
+      "label": "electric motor",
+      "similarity": 0.2294
+    },
+    {
+      "label": "industrial electric motor",
+      "similarity": 0.2288
+    },
+    {
+      "label": "obstructed ventilation",
+      "similarity": 0.2207
+    }
+  ],
+  "model_load_time_seconds": 8.7556,
+  "preprocessing_time_seconds": 0.0127,
+  "inference_time_seconds": 0.2974,
+  "total_analyze_call_seconds": 0.6509,
+  "timestamp": "2026-09-30T17:22:02.323269+00:00",
+  "synthetic_image_notice": "Illustration verifies model execution only; it is not real-world accuracy evidence."
+}

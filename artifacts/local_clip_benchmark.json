@@ -1,0 +1,26 @@
+{
+  "benchmark_type": "LOCAL INTEL CPU",
+  "label": "LOCAL INTEL CPU BENCHMARK",
+  "execution_device": "CPU",
+  "gpu": "NOT USED",
+  "torch_cuda_version": null,
+  "processor": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "model": "openai/clip-vit-base-patch32",
+  "image": "data\\sample_images\\sample_motor.png",
+  "model_load_time_seconds": 2.9829,
+  "preprocessing_time_seconds": 0.0113,
+  "warmup_passes": 1,
+  "measured_passes": 3,
+  "first_inference_time_seconds": 0.259,
+  "warm_inference_time_seconds": [
+    0.2484,
+    0.2508
+  ],
+  "average_inference_time_seconds": 0.2527,
+  "minimum_inference_time_seconds": 0.2484,
+  "maximum_inference_time_seconds": 0.259,
+  "measured_at": "2026-09-30T17:22:09.607530+00:00",
+  "process_memory_delta_bytes": null,
+  "memory_note": "Install psutil for process RSS measurement"
+}

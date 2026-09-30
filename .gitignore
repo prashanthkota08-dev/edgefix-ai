@@ -1,0 +1,45 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp*/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.token
+*api_token*
+*api-token*
+.streamlit/secrets.toml
+.streamlit-home/
+
+# Model weights and downloaded caches
+models/huggingface/
+**/.cache/huggingface/
+**/models--*/
+*.safetensors
+*.pt
+*.pth
+
+# Generated local index and exported/profiling model artifacts
+/data/processed/*.json
+snapdragon/artifacts/
+snapdragon/ai_hub_profile_result.json
+
+# Temporary, OS, and editor files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+

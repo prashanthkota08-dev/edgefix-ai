@@ -1,0 +1,135 @@
+[
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nInduction motor\nThe motor converts electrical energy into shaft rotation. The frame, stator, rotor, bearings, terminal\nenclosure, cooling fan, and mounting interface each affect reliable operation. Nameplate voltage,\nfrequency, current, speed, duty, and enclosure ratings are equipment-specific; use the actual\nnameplate and approved records rather than assumptions.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Component Reference",
+    "page_number": 1,
+    "section": "Induction motor",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nCooling components\nThe external fan and shroud move air over the motor frame on many designs. Fins increase heat\ntransfer area. Enclosed or specialty motors may use different cooling arrangements. Blocked airflow\ncan contribute to elevated temperature. Confirm design and approved cleaning methods before\nservice; do not remove a guard while running.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Component Reference",
+    "page_number": 2,
+    "section": "Cooling components",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nBearing and lubrication\nBearings support the rotor and allow rotation. Bearing arrangement and lubricant requirements vary\nby design. Incorrect lubricant, excess quantity, contamination, misalignment, and wear can\ncontribute to heat or noise. Confirm bearing type, lubricant, quantity, and interval from the\nequipment record or approved supplier data.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Component Reference",
+    "page_number": 3,
+    "section": "Bearing and lubrication",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nBelt and pulley drive\nBelts transfer rotation between motor and driven equipment. Pulley alignment, belt condition,\nspecified tension, guarding, and load affect service life. Use the drive's documented specification\nand tools for inspection. A visual check can identify damage but cannot establish correct tension or\nalignment precisely.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Component Reference",
+    "page_number": 4,
+    "section": "Belt and pulley drive",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nElectrical terminal enclosure\nThe terminal enclosure contains connections between supply conductors and motor leads.\nConnection arrangement and torque are specific to the motor. Only qualified personnel may inspect\nor service connections using approved isolation and verification procedures. Enclosure appearance\nalone does not establish electrical safety.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Component Reference",
+    "page_number": 5,
+    "section": "Electrical terminal enclosure",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nRoutine motor inspection\nEdgeFix synthetic training document | Revision 1.0\nBefore work, identify the motor, driven load, operating duty, and recorded baseline. Inspect the\nframe for impact, corrosion, loose guards, oil or water ingress, and blocked ventilation. Record\nambient temperature, load, sound, vibration, and bearing housing temperature at repeatable points.\nCompare readings with the equipment record and site limits; this guide does not define universal\nacceptance limits.\nPreventive maintenance intervals must follow the site schedule and motor supplier requirements.\nKeep a dated log of observations, measurements, corrective work, and parts fitted. A change from\nthe established baseline warrants investigation even when the motor still runs.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Motor Maintenance Manual",
+    "page_number": 1,
+    "section": "Routine motor inspection",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nCooling and overheating\nOverheating can result from blocked cooling passages, excessive ambient temperature, overload,\npoor ventilation, unbalanced supply, or bearing friction. First review load and operating history and\ncompare temperature readings with the established baseline and site limits. With the equipment\nsafely isolated, inspect external cooling fins, fan cover, and air passages for dust or debris. Clean\nonly by an approved method that will not drive contamination into the motor. Confirm the fan and\nshroud are intact and unobstructed.\nDo not touch a hot housing to estimate temperature. Use a suitable calibrated instrument from a\nsafe position. If temperature continues to rise, trips recur, or the cause is uncertain, stop and refer\nto a qualified electrical or mechanical technician.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Motor Maintenance Manual",
+    "page_number": 2,
+    "section": "Cooling and overheating",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nLubrication and bearings\nBearing noise, rising housing temperature, or vibration may indicate lubrication problems,\ncontamination, misalignment, or wear. Record the bearing location and operating condition. Check\nthe maintenance record for lubricant type, quantity, and service date. Use only the specified\nlubricant and approved service method; incompatible greases can damage bearings. Do not add\nlubricant solely because a bearing is noisy.\nInspect for leakage, damaged seals, and contamination after isolation. A rough bearing, persistent\nabnormal noise, or repeat temperature rise requires qualified assessment. Bearing replacement\nand internal motor work are outside this guide.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Motor Maintenance Manual",
+    "page_number": 3,
+    "section": "Lubrication and bearings",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nBelt inspection and alignment\nA belt drive can produce vibration, heat, and premature wear when tension or alignment is\nincorrect. After safe shutdown and isolation, inspect belt surfaces for glazing, cracking, fraying,\ncontamination, and uneven wear. Check pulley grooves and mounting for visible damage. Use an\nappropriate alignment tool and the equipment specification to assess pulley alignment. Use the\ndrive maker's specified tension method; do not estimate tension by hand.\nReplace matched belt sets together where the drive design requires it. Refit guards before\noperation. If alignment or tension cannot be verified to specification, refer the work to qualified\nmaintenance staff.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Motor Maintenance Manual",
+    "page_number": 4,
+    "section": "Belt inspection and alignment",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nElectrical connections\nDiscoloration, odor, repeated overload trips, or an unexpectedly hot terminal may indicate an\nelectrical fault. Visual inspection alone cannot confirm a safe or sound connection. Only qualified\npersonnel using approved isolation, verification, and torque procedures may inspect or service\nelectrical terminals. Compare supply conditions and recorded motor current with the equipment\nnameplate and site limits. Do not open an energized enclosure. Escalate recurring trips, visible\narcing, damaged insulation, or uncertain measurements.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Motor Maintenance Manual",
+    "page_number": 5,
+    "section": "Electrical connections",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nSafe shutdown and isolation\nBefore physical inspection, follow site-specific safety procedures and lockout/tagout requirements.\nOnly authorized personnel may isolate equipment. Identify all energy sources, including electrical\nsupply, stored mechanical energy, gravity, and driven equipment. Apply the approved isolation\ndevices and personal locks, release or restrain stored energy using site procedure, and verify the\nsafe state with approved methods before work. A stop command or open control switch is not proof\nof isolation. If isolation cannot be confirmed, do not proceed.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Safety Procedures",
+    "page_number": 1,
+    "section": "Safe shutdown and isolation",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nElectrical hazards\nElectrical enclosures and terminals present shock and arc-flash hazards. Work is limited to qualified\npersonnel operating within their training, authorization, and site electrical safety program. Use the\nsite's risk assessment, boundaries, protective equipment, and test instruments. Never open an\nenergized enclosure for routine visual inspection. Report damaged cables, arcing, burning odor, or\nwater ingress and keep others clear according to site procedure.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Safety Procedures",
+    "page_number": 2,
+    "section": "Electrical hazards",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nRestart and handback\nBefore returning equipment to service, account for people and tools, reinstall all guards and covers,\nclear the work area, and complete the site's inspection and lock-removal process. Each lock is\nremoved by its owner or under the site's formal exception process. Notify affected operators and\nuse the approved restart sequence. Observe the restart from a safe location and stop if abnormal\nsound, vibration, heat, or protection trips recur. Record work and hand back the equipment.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Safety Procedures",
+    "page_number": 3,
+    "section": "Restart and handback",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nEscalation\nStop work and contact the responsible supervisor or qualified specialist when the hazard, fault,\nmeasurement, or procedure is unclear; when protection trips repeatedly; or when smoke, arcing,\nunexpected motion, severe vibration, or uncontrolled heat occurs. This synthetic guide supplements\nbut does not replace site rules, risk assessment, training, equipment-specific instructions, or\napplicable regulations.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Safety Procedures",
+    "page_number": 4,
+    "section": "Escalation",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nTroubleshooting method\nCapture the symptom, when it began, load, ambient conditions, recent maintenance, alarms, and\nmeasurements before changing settings or parts. Compare with the equipment record. Check one\nhypothesis at a time and record results. Stop when observations indicate an electrical hazard,\nunexpected motion, smoke, burning odor, repeated protection trip, or a condition beyond staff\nauthorization. This guide gives screening checks, not a confirmed diagnosis.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Troubleshooting Guide",
+    "page_number": 1,
+    "section": "Troubleshooting method",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nExcessive vibration\nPossible contributors include looseness, imbalance, belt misalignment, bearing wear, soft mounting,\nor a change in the driven load. Record vibration at consistent locations and operating conditions\nusing an appropriate instrument; compare against baseline and site limits. With equipment isolated,\ninspect accessible mounts, fasteners, guards, and belt condition. Do not run equipment with a\nguard removed. If vibration rises suddenly, includes impact sounds, or exceeds a site limit, keep the\nmotor stopped and request qualified assessment.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Troubleshooting Guide",
+    "page_number": 2,
+    "section": "Excessive vibration",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nMotor will not start or trips\nRecord the protection device indication, trip timing, recent load changes, and any odor or sound. Do\nnot repeatedly reset a tripping device. Qualified personnel may compare supply and current\nmeasurements against the nameplate and approved site limits after applying required electrical\nsafety controls. Mechanical binding, overload, supply loss, and winding faults require different\nchecks; the symptom alone does not identify the cause. Escalate repeated trips, smoke, arcing, or\nuncertain readings.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Troubleshooting Guide",
+    "page_number": 3,
+    "section": "Motor will not start or trips",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nBelt heat and wear\nA hot belt or uneven edge wear may be associated with misalignment, incorrect tension, damaged\npulleys, overload, or contamination. After isolation, inspect belt and pulley condition and verify\nalignment and tension against the drive specification with suitable tools. Never adjust a moving\ndrive. If the specification is unavailable, do not guess; obtain the equipment data or qualified\nsupport.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Troubleshooting Guide",
+    "page_number": 4,
+    "section": "Belt heat and wear",
+    "score": 0.0
+  },
+  {
+    "text": "EDGEFIX AI / SYNTHETIC TRAINING MATERIAL\nAbnormal bearing sound\nNote whether the sound is continuous, intermittent, or load dependent and identify the bearing\nlocation without touching moving or hot parts. Compare with historical observations. After isolation,\ninspect for visible leakage and check service records. Sound alone cannot establish bearing\ncondition. Persistent noise, roughness, heat, or increasing vibration needs qualified evaluation; do\nnot inject lubricant without checking the specified type and service procedure.\nOriginal synthetic content · Not manufacturer guidance",
+    "document_name": "EdgeFix Troubleshooting Guide",
+    "page_number": 5,
+    "section": "Abnormal bearing sound",
+    "score": 0.0
+  }
+]

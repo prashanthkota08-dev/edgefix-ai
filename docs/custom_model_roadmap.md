@@ -1,0 +1,5 @@
+# Custom industrial vision model roadmap
+
+CLIP is a pretrained general-purpose research model and has not been trained by EdgeFix. A future task-specific model could be evaluated only after collecting a licensed, representative industrial image dataset with consent, site controls, and carefully reviewed labels. Split by facility and equipment—not randomly by image—to reduce leakage. Establish an expert-reviewed evaluation set covering conditions and ordinary variation, measure class-wise errors and uncertainty, and define a human escalation policy before any deployment.
+
+If experiments require a cloud GPU, keep images private and approved for that service, document provenance and retention, and train a small classifier or adapter rather than assuming full fine-tuning is needed. Export the selected model to ONNX, validate numerical parity against the reference model, test CPU inference, then use Qualcomm AI Hub Workbench to compile/profile on named Snapdragon devices and runtimes. Record actual job IDs, device, runtime, latency, memory, accuracy, and limitations. No training pipeline or custom dataset is included in Phase 2.

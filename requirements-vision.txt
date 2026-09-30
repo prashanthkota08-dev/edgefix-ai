@@ -1,0 +1,4 @@
+# Install a CPU-only PyTorch wheel separately (see README); this file has no CUDA pin.
+transformers>=4.44,<5
+safetensors>=0.4
+huggingface_hub>=0.24
